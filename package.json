@@ -4,17 +4,26 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "express": "^5.1.0",
+    "express": "^5.2.1",
     "jsonwebtoken": "^9.0.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdelrahman-shafie/Human-Project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abdelrahman-shafie/Human-Project/issues"
+  },
+  "homepage": "https://github.com/abdelrahman-shafie/Human-Project#readme",
+  "description": ""
 }
